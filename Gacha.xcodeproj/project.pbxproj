@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2601886B205EB1F100A5E070 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2601886A205EB1F100A5E070 /* ResultViewController.swift */; };
 		2645BA1F205E701300A974AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645BA1E205E701300A974AE /* AppDelegate.swift */; };
 		2645BA21205E701300A974AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645BA20205E701300A974AE /* ViewController.swift */; };
 		2645BA24205E701300A974AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2645BA22205E701300A974AE /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		2645BA29205E701300A974AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2645BA27205E701300A974AE /* LaunchScreen.storyboard */; };
 		2645BA34205E701300A974AE /* GachaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645BA33205E701300A974AE /* GachaTests.swift */; };
 		2645BA3F205E701300A974AE /* GachaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2645BA3E205E701300A974AE /* GachaUITests.swift */; };
+		2645BA4D205E9C3B00A974AE /* GachaResources in Resources */ = {isa = PBXBuildFile; fileRef = 2645BA4C205E9C3B00A974AE /* GachaResources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2601886A205EB1F100A5E070 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		2645BA1B205E701300A974AE /* Gacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gacha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2645BA1E205E701300A974AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2645BA20205E701300A974AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		2645BA3A205E701300A974AE /* GachaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2645BA3E205E701300A974AE /* GachaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaUITests.swift; sourceTree = "<group>"; };
 		2645BA40205E701300A974AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2645BA4C205E9C3B00A974AE /* GachaResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GachaResources; path = "../../../iP_2018_Spring_素材/2-中級素材/Gacha素材/GachaResources"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,9 @@
 		2645BA1D205E701300A974AE /* Gacha */ = {
 			isa = PBXGroup;
 			children = (
+				2645BA4C205E9C3B00A974AE /* GachaResources */,
 				2645BA1E205E701300A974AE /* AppDelegate.swift */,
+				2601886A205EB1F100A5E070 /* ResultViewController.swift */,
 				2645BA20205E701300A974AE /* ViewController.swift */,
 				2645BA22205E701300A974AE /* Main.storyboard */,
 				2645BA25205E701300A974AE /* Assets.xcassets */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2645BA29205E701300A974AE /* LaunchScreen.storyboard in Resources */,
+				2645BA4D205E9C3B00A974AE /* GachaResources in Resources */,
 				2645BA26205E701300A974AE /* Assets.xcassets in Resources */,
 				2645BA24205E701300A974AE /* Main.storyboard in Resources */,
 			);
@@ -261,6 +268,7 @@
 			files = (
 				2645BA21205E701300A974AE /* ViewController.swift in Sources */,
 				2645BA1F205E701300A974AE /* AppDelegate.swift in Sources */,
+				2601886B205EB1F100A5E070 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
